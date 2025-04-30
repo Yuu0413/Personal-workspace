@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My PortFolio</title>
-    <link rel="stylesheet" href="top.css">
-</head>
+import './App.css';
 
-<body>
-    <header>
+function App() {
+  return (
+    <div className="App">
+      <header>
             <h1>柴田 優太</h1>
             <p>Learning data science and programming in university...</p>
             <p><a href="#About">About Me</a></p>
@@ -73,14 +68,13 @@
             <ul>
                 <p><a href="https://twitter.com/yuu0413_s" target="_blank">Twitter</a></p>
                 <p><a href="https://www.instagram.com/yuu_0413_s/" target="_blank">Instagram</a></p>
-                <p><a href="https://github.com/Yuu0413" target="_blank">Github</a></@>
+                <p><a href="https://github.com/Yuu0413" target="_blank">Github</a></p>
             </ul>
         </nav>
         </section>
     </main>
+    </div>
+  );
+};
 
-    <footer>
-        <p></p>
-    </footer>
-</body>
-</html>
+export default App;
