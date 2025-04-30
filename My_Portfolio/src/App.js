@@ -1,9 +1,9 @@
 import './App.css';
 
 function App() {
-  return (
+return (
     <div className="App">
-      <header>
+    <header>
             <h1>柴田 優太</h1>
             <p>Learning data science and programming in university...</p>
             <p><a href="#About">About Me</a></p>
@@ -46,6 +46,8 @@ function App() {
                 <p>Python</p>
                 <p>HTML</p>
                 <p>CSS</p>
+                <p>JavaScript</p>
+                <p>React</p>
             </ul>
         </nav>
         </section>
@@ -74,7 +76,7 @@ function App() {
         </section>
     </main>
     </div>
-  );
+    );
 };
 
 export default App;
