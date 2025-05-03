@@ -1,9 +1,18 @@
 from bs4 import BeautifulSoup
-from urllib import requests
+import requests
 
+#初期URL
 url = "https://bookmeter.com/rankings"
-response = request.urlopen(url)
-soup = BeautifulSoup(response)
-response.close()
 
-print(soup)
+res = requests.get(url)
+soup = BeautifulSoup(res.text, 'html.parser')
+
+#ランキングのジャンルを取得
+def get_book_genres():
+    genres = []
+    book_genre = soup.find_all('h3')
+    for genre in book_genre:
+        genres.append(genre.text)
+    return genres
+
+print(get_book_genres())
