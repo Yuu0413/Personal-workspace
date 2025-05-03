@@ -1,0 +1,1 @@
+const url = "https://api.syosetu.com/novelapi/api/"
