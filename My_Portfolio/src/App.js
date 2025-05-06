@@ -19,7 +19,7 @@ return (
         <nav>
             <ul>
                 <p>名前:柴田 優太(しばた ゆうた)</p>
-                <p>年齢:19</p>
+                <p>年齢:20</p>
                 <p>誕生日:4月13日</p>
                 <p>出身:東京</p>
                 <p>所属:武蔵野大学データサイエンス学部データサイエンス学科</p>
@@ -44,10 +44,9 @@ return (
         <nav>
             <ul>
                 <p>Python</p>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
                 <p>React</p>
+                <p>HTML/CSS</p>
+                <p>JavaScript</p>
             </ul>
         </nav>
         </section>
@@ -65,12 +64,9 @@ return (
         </section>
 
         <section id="sns">
-            <h2>各種SNS</h2>
+            <h2></h2>
         <nav>
             <ul>
-                <p><a href="https://twitter.com/yuu0413_s" target="_blank">Twitter</a></p>
-                <p><a href="https://www.instagram.com/yuu_0413_s/" target="_blank">Instagram</a></p>
-                <p><a href="https://github.com/Yuu0413" target="_blank">Github</a></p>
             </ul>
         </nav>
         </section>
@@ -80,3 +76,6 @@ return (
 };
 
 export default App;
+
+//以下メモ
+//
