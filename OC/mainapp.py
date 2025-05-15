@@ -19,8 +19,8 @@ df["full_text"] = "passage: " + df["title"] + "。" + df["story"]
 embeddings = model.encode(df["full_text"].tolist(), normalize_embeddings=True)
 
 #ユーザー入力
-user_title = "孤独な少年"
-user_story = "孤独な少年が新しい世界を見つけていく冒険物語。"
+user_title = ""
+user_story = ""
 query_text = f"query: {user_title}。{user_story}"
 query_vec = model.encode([query_text], normalize_embeddings=True)
 
